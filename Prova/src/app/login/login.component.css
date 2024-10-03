@@ -1,0 +1,112 @@
+/* login.component.css - Nuovo stile per la pagina di login */
+
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Altezza completa della viewport */
+  background: linear-gradient(135deg, #ffffff00, #ffffff00); /* Gradiente scuro */
+  color: #e0e0e000;
+  font-family: 'Courier New', Courier, monospace; /* Font semplice e leggibile */
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: #ffffff;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #ff5733; /* Linea decorativa arancione */
+  margin: 12px auto 0;
+  border-radius: 3px;
+}
+
+.login-form {
+  width: 400px; /* Aumenta la larghezza del modulo */
+  padding: 40px; /* Padding più ampio */
+  border-radius: 12px;
+  background-color: #2a2a2a; /* Sfondo più scuro */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7); /* Ombra più profonda */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+  color: #bdbdbd; /* Colore grigio per il testo */
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #444;
+  border-radius: 6px;
+  background-color: #333;
+  color: #ffffff;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ff5733; /* Colore arancione al focus */
+  box-shadow: 0 0 8px rgba(255, 87, 51, 0.6); /* Ombra arancione al focus */
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: #ff5733; /* Colore arancione per il bottone primario */
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #e04a2f;
+  box-shadow: 0 12px 24px rgba(255, 87, 51, 0.5); /* Ombra più intensa */
+  transform: translateY(-4px); /* Hover dinamico */
+}
+
+.btn-secondary {
+  background-color: #dce800; /* Verde per il bottone secondario */
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #e2ea15;
+  box-shadow: 0 12px 24px rgba(197, 220, 48, 0.762);
+  transform: translateY(-4px);
+}
+
+footer {
+  background-color: #181818;
+  color: #bdbdbd;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+  width: 100%;
+  position: fixed; /* Footer fisso in basso */
+  bottom: 0;
+}

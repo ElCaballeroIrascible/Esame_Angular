@@ -1,0 +1,58 @@
+/* home.component.css - Nuovo stile per la home page */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 25px ;
+  background: linear-gradient(135deg, #292929, #1b1b1b); /* Gradiente scuro */
+  color: #e0e0e0;
+  font-family: 'Roboto', sans-serif; /* Font moderno e pulito */
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6); /* Ombra profonda */
+ 
+}
+
+h1 {
+  font-size: 2.8rem; /* Font più grande */
+  margin-bottom: 25px;
+  color: #ffb74d; /* Colore caldo per contrasto */
+  position: relative;
+}
+
+h1::after {
+  content: '';
+  display: block;
+  width: 90px;
+  height: 5px;
+  background-color: #ffb74d; /* Linea decorativa coordinata */
+  margin: 12px auto 0;
+  border-radius: 3px;
+}
+
+p {
+  font-size: 1.4rem;
+  margin: 25px 0;
+  color: #bdbdbd; /* Testo più chiaro per maggiore leggibilità */
+  line-height: 1.7; /* Spaziatura maggiore per il testo */
+}
+
+.btn-navigate {
+  background-color: #ffb74d; /* Colore caldo per il bottone */
+  color: #1b1b1b; /* Colore del testo scuro per contrasto */
+  padding: 14px 35px; /* Padding maggiore per un bottone più grande */
+  font-size: 1.3rem;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(255, 183, 77, 0.4); /* Ombra calda */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transizioni più fluide */
+}
+
+.btn-navigate:hover {
+  background-color: #e59431; /* Colore più scuro al hover */
+  transform: translateY(-5px); /* Hover dinamico più evidente */
+  box-shadow: 0 14px 28px rgba(255, 183, 77, 0.5); /* Ombra accentuata al hover */
+}

@@ -1,0 +1,67 @@
+{
+  "people": [
+    {
+      "nome": "Luigi",
+      "cognome": "Verdi",
+      "eta": 25,
+      "email": "luigi.verdi@example.com",
+      "codiceFiscale": "VRDLGU25A01H501Z",
+      "id": "2",
+      "isEditing": true
+    },
+    {
+      "nome": "Anna",
+      "cognome": "Bianchi",
+      "eta": 28,
+      "email": "anna.bianchi@example.com",
+      "codiceFiscale": "BNCNNN28A01H501Z",
+      "id": "3",
+      "isEditing": true
+    },
+    {
+      "nome": "Carla",
+      "cognome": "Neri",
+      "eta": 35,
+      "email": "carla.neri@example.com",
+      "codiceFiscale": "NRICRL35A01H501Z",
+      "id": "4",
+      "isEditing": true
+    },
+    {
+      "nome": "Paolo",
+      "cognome": "Blu",
+      "eta": 40,
+      "email": "paolo.blu@example.com",
+      "codiceFiscale": "BLUPPL40A01H501Z",
+      "id": "5",
+      "isEditing": true
+    },
+    {
+      "nome": "Franco",
+      "cognome": "Azzurri",
+      "eta": 27,
+      "email": "franco.azzurri@example.com",
+      "codiceFiscale": "AZZFRN27A01H501Z",
+      "id": "7",
+      "isEditing": true
+    },
+    {
+      "nome": "Laura",
+      "cognome": "Rosa",
+      "eta": 22,
+      "email": "laura.rosa@example.com",
+      "codiceFiscale": "RSALRA22A01H501Z",
+      "id": "8",
+      "isEditing": true
+    },
+    {
+      "nome": "Sara",
+      "cognome": "Grigi",
+      "eta": 29,
+      "email": "sara.grigi@example.com",
+      "codiceFiscale": "GRGSRR29A01H501Z",
+      "id": "9",
+      "isEditing": true
+    }
+  ]
+}

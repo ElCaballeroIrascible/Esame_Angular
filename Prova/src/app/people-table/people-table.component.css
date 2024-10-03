@@ -1,0 +1,86 @@
+/* people-table.component.css - Nuovo stile */
+
+h2 {
+  color: #f5f5f5;
+}
+
+table {
+  color: #f5f5f5;
+  width: 100%;
+  border-collapse: collapse; /* Unisce i bordi delle celle */
+  background-color: rgba(0, 0, 0, 0.57);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd; /* Bordo grigio chiaro per le celle */
+}
+
+/* Stile dei pulsanti */
+.add-button, .edit-button, .save-button, .cancel-button, .delete-button, .logout-button {
+  color: #ffffff;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 50px; /* Bordi arrotondati */
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+
+/* Hover per tutti i pulsanti */
+.add-button:hover, .edit-button:hover, .save-button:hover, .cancel-button:hover, .delete-button:hover, .logout-button:hover {
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2); /* Ombra al hover */
+  transform: translateY(-3px); /* Spostamento verso l'alto */
+}
+
+/* Pulsante Aggiungi (Giallo) */
+.add-button {
+  background-color: #ffc107; /* Giallo */
+  margin-bottom: 15px;
+}
+
+.add-button:hover {
+  background-color: #e0a800; /* Giallo più scuro al hover */
+}
+
+/* Pulsante Modifica (Arancione) */
+.edit-button {
+  background-color: #fd7e14; /* Arancione */
+  margin-right: 10px; /* Spazio tra pulsanti */
+}
+
+.edit-button:hover {
+  background-color: #e36d08; /* Arancione più scuro al hover */
+}
+
+/* Pulsante Elimina (Rosso chiaro) */
+.delete-button {
+  background-color: #f86c6b; /* Rosso chiaro */
+}
+
+.delete-button:hover {
+  background-color: #e55353; /* Rosso più scuro al hover */
+}
+
+/* Pulsante Salva */
+.save-button {
+  background-color: #ffbb2a; /* Verde */
+}
+
+.save-button:hover {
+  background-color: #c58f06e2; /* Verde più scuro al hover */
+}
+
+/* Pulsante Annulla */
+.cancel-button {
+  background-color: #999a9a; /* Grigio */
+}
+
+.cancel-button:hover {
+  background-color: #919292be; /* Grigio più scuro al hover */
+}
+
+/* Margini superiori per separare i pulsanti */
+.logout-button {
+  margin-top: 20px;
+}
